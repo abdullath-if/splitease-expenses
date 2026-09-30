@@ -11,5 +11,7 @@ services:
         value: production
       - key: JWT_SECRET
         generateValue: true
-      - key: MONGODB_URI
-        sync: false
+      - key: MONGOMS_VERSION
+        value: 7.0.24
+      - key: MONGOMS_DISABLE_POSTINSTALL
+        value: "true"
