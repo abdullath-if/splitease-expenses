@@ -1,0 +1,26 @@
+{
+  "name": "splitease",
+  "version": "1.0.0",
+  "description": "SplitEase — Production-Quality Expense Splitting App (MERN Stack)",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test": "npm run test --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "keywords": [
+    "expense-splitter",
+    "splitwise-clone",
+    "mern",
+    "debt-simplification",
+    "algorithms"
+  ],
+  "author": "SplitEase Team",
+  "license": "MIT"
+}
